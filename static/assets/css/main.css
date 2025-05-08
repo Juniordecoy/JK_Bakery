@@ -1306,7 +1306,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background: linear-gradient(to bottom right, #502b6f, #9d4edd);
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -2189,3 +2189,18 @@ input, select, textarea {
 			}
 
 		}
+
+		.panel .intro {
+    background-color: #000000; /* black background */
+    color: #ffffff; /* white text for contrast */
+    padding: 4em 2em; /* optional: ensure text isn't touching edges */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* vertical centering */
+    align-items: center;      /* horizontal centering */
+    text-align: center;       /* center text within the block */
+    height: 100%;             /* ensure it fills the parent */
+    border-radius: 0.25em; /* optional: rounded corners */
+    max-width: 100%;       /* keeps side padding consistent */
+    margin: 0 auto;       /* centers horizontally */
+}
